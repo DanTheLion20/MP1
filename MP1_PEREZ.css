@@ -550,6 +550,10 @@ span:nth-child(34) {
 
 }
 
+.btn_hover:hover {
+    color: #01b3a7;
+}
+
 /* Counting */
 
 .counting h1 {
