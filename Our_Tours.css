@@ -1,0 +1,166 @@
+html,
+body {
+    margin: 0;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background-color: transparent;
+
+}
+
+.navbar-dark {
+    background-color: #273c44;
+    transition: 0.5s;
+}
+
+
+.navbar .container {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 8px;
+}
+
+.hero {
+    position: relative;
+    padding: 0 !important;
+}
+
+
+.hero_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero_text h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.hero_text p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+
+
+
+
+.vertically h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.vertically p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: rgb(78, 78, 78);
+}
+
+/* FOOTER */
+
+.background_padding {
+    background-color: rgb(241, 237, 237);
+}
+
+.footer_image {
+    width: 20px;
+    transform: translateY(-20%);
+}
+
+.baby h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.background_padding a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.background_padding a:hover {
+    color: #01b3a7 !important;
+}
+
+.palawan_btn {
+    background-color: #273c44;
+    font-family: 'Montserrat', sans-serif !important;
+    color: white;
+    text-decoration: none;
+}
+
+.palawan_btn:hover {
+    background-color: #01b3a7;
+    color: white !important;
+
+}
+
+
+/* Sharp button radius */
+.btn {
+    border-radius: 0 !important;
+    /* for sharp edges button */
+}
+
+
+/* Card */
+
+
+.relative {
+    position: relative;
+}
+
+.exclusive {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.absolute {
+    font-family: 'Montserrat', sans-serif !important;
+    position: absolute;
+    font-size: 15px;
+    bottom: 4%;
+    left: 0%;
+    color: white;
+    background-color: #273c44;
+
+}
+
+.subtext {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.price {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    color: #01a001;
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+    .hero img {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    .hero img {
+        height: 180px;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+}
