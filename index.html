@@ -179,7 +179,7 @@
       <div class="baby container my-5 py-3">
         <h1 class="text-center">Top Destinations</h1>
         <div class="row my-3">
-          <div class="col-md-4">
+          <div class="col-md-4 my-4">
             <div class="card h-100">
               <img src="img/card_el nido.jpg" class="card-img-top rounded" />
               <div class="card-body">
@@ -194,7 +194,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 my-4">
             <div class="card h-100">
               <img src="img/card_puerto.JPG" class="card-img-top rounded" />
               <div class="card-body">
@@ -209,7 +209,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 my-4">
             <div class="card h-100">
               <img src="img/card_coron.jpg" class="card-img-top rounded" />
               <div class="card-body">
@@ -282,17 +282,20 @@
         <h1 class="text-center">Gallery</h1>
         <div class="row gy-4">
           <div class="col-4">
-            <img src="img/gallery.jpeg" class="gallery w-100 img-fluid rounded-5" data-bs-toggle="modal"
+            <img src="img/gallery_2.jpg" class="gallery zoom_out w-100 img-fluid rounded-5" data-bs-toggle="modal"
               data-bs-target="#modal1">
           </div>
           <div class="col-8">
-            <img src="img/carousel_puerto.jpg" class="w-100 img-fluid rounded-5">
+            <img src="img/carousel_puerto.jpg" class="w-100 img-fluid rounded-5 zoom_out" data-bs-toggle="modal"
+              data-bs-target="#modal2">
           </div>
           <div class="col-7">
-            <img src="img/w3.jpg" class="w-100 img-fluid rounded-5">
+            <img src="img/w3.jpg" class="w-100 img-fluid rounded-5 zoom_out" data-bs-toggle="modal"
+              data-bs-target="#modal3">
           </div>
           <div class="col-5">
-            <img src="img/card_puerto.JPG" class="w-100 img-fluid rounded-5">
+            <img src="img/card_puerto.JPG" class="w-100 img-fluid rounded-5 zoom_out" data-bs-toggle="modal"
+              data-bs-target="#modal4">
           </div>
         </div>
       </div>
@@ -312,7 +315,85 @@
           </div>
         </div>
         <div class="modal-body">
-          <img src="img/gallery.jpeg" class="w-100 img-fluid rounded-1">
+          <img src="img/gallery_2.jpg" class="w-100 img-fluid rounded-1">
+        </div>
+        <!-- modal footer-->
+        <div class="modal-footer">
+          <!-- data-bs-dissmiss="modal" to close -->
+          <button class="btn palawan_btn" data-bs-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modals -->
+  <!-- fade for effects -->
+  <div class="modal fade" id="modal2">
+    <!-- modal-xl, modal-fullscreen, modal-lg, modal-sm for modal sizes-->
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <!-- modal header and title -->
+        <div class="modal-header">
+          <div class="modal-title">
+            <h2>Puerto Princesa</h2>
+          </div>
+        </div>
+        <div class="modal-body">
+          <img src="img/carousel_puerto.jpg" class="w-100 img-fluid rounded-1">
+        </div>
+        <!-- modal footer-->
+        <div class="modal-footer">
+          <!-- data-bs-dissmiss="modal" to close -->
+          <button class="btn palawan_btn" data-bs-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modals -->
+  <!-- fade for effects -->
+  <div class="modal fade" id="modal3">
+    <!-- modal-xl, modal-fullscreen, modal-lg, modal-sm for modal sizes-->
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <!-- modal header and title -->
+        <div class="modal-header">
+          <div class="modal-title">
+            <h2>El Nido</h2>
+          </div>
+        </div>
+        <div class="modal-body">
+          <img src="img/gallery_2.jpg" class="w-100 img-fluid rounded-1">
+        </div>
+        <!-- modal footer-->
+        <div class="modal-footer">
+          <!-- data-bs-dissmiss="modal" to close -->
+          <button class="btn palawan_btn" data-bs-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modals -->
+  <!-- fade for effects -->
+  <div class="modal fade" id="modal4">
+    <!-- modal-xl, modal-fullscreen, modal-lg, modal-sm for modal sizes-->
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <!-- modal header and title -->
+        <div class="modal-header">
+          <div class="modal-title">
+            <h2>Puerto Princesa</h2>
+          </div>
+        </div>
+        <div class="modal-body">
+          <img src="img/card_puerto.JPG" class="w-100 img-fluid rounded-1">
         </div>
         <!-- modal footer-->
         <div class="modal-footer">
@@ -330,7 +411,7 @@
     <div class="baby container">
       <h1 class="text-center">Hotels Nearby</h1>
       <div class="row">
-        <div class="col-md-3 ">
+        <div class="col-md-3 my-4">
           <div class="card h-100">
             <div class="hotel"><img src="img/h1.jpg" class="card-img-top rounded" />
               <div class="location bg-dark border border-dark border-3 rounded-5 px-3"><i
@@ -346,7 +427,7 @@
                   class="fa-solid fa-arrow-right-long"></i></a></div>
           </div>
         </div>
-        <div class="col-md-3 ">
+        <div class="col-md-3 my-4">
           <div class="card h-100">
             <div class="hotel"><img src="img/h2.jpg" class="card-img-top rounded" />
               <div class="location bg-dark border border-dark border-3 rounded-5 px-3"><i
@@ -362,7 +443,7 @@
                   class="fa-solid fa-arrow-right-long"></i></a></div>
           </div>
         </div>
-        <div class="col-md-3 ">
+        <div class="col-md-3 my-4">
           <div class="card h-100">
             <div class="hotel"><img src="img/h3.jpg" class="card-img-top rounded" />
               <div class="location bg-dark border border-dark border-3 rounded-5 px-3"><i
@@ -378,7 +459,7 @@
                   class="fa-solid fa-arrow-right-long"></i></a></div>
           </div>
         </div>
-        <div class="col-md-3 ">
+        <div class="col-md-3 my-4">
           <div class="card h-100">
             <div class="hotel"><img src="img/h4.jpg" class="card-img-top rounded" />
               <div class="location bg-dark border border-dark border-3 rounded-5 px-3"><i
@@ -405,7 +486,7 @@
     <div class="image_text text-center">
       <h1>Explore Palawan</h1>
       <p class="container_secondary_text">Where Dreams Meet Plans and Adventures Unfold</p>
-      <div class="btn btn-transparent btn-outline-light btn-lg">Book Now</div>
+      <a href="Our_Tours.css"><button class=" btn btn-lg palawan_btn">Book Now</button></a>
     </div>
   </div>
 
@@ -414,19 +495,19 @@
   <section class="counting">
     <div class="container py-5 px-5 mt-5 mb-5">
       <div class="row gx-5">
-        <div class="col-md-4">
-          <div class="border border-dark border-3 text-center py-4 pb-3">
+        <div class="col-md-4 my-3">
+          <div class="border border-dark border-3 text-center py-4 pb-3 ">
             <h3 data-target="1769" class="count">0</h3>
             <h1>Islands</h1>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 my-3">
           <div class="border border-dark border-3 text-center py-4 pb-3">
             <h3 data-target="500984" class="count">0</h3>
             <h1>Travelers per year</h1>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4  my-3">
           <div class="border border-dark border-3  text-center py-4 pb-3">
             <h3 data-target="939594" class="count">0</h3>
             <h1>People</h1>

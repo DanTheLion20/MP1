@@ -485,6 +485,9 @@ span:nth-child(34) {
     transition: 0.5s;
 }
 
+
+/* Gallery */
+
 .gallery {
     transform: translateY(53%);
 }
@@ -499,6 +502,15 @@ span:nth-child(34) {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.zoom_out {
+    transition: transform .2s;
+}
+
+.zoom_out:hover {
+    transform: scale(.8);
+}
+
 
 /* HOTELS */
 
@@ -521,6 +533,7 @@ span:nth-child(34) {
     color: rgb(78, 78, 78);
 }
 
+
 .banner {
     position: relative;
     padding: 0 !important;
@@ -536,17 +549,18 @@ span:nth-child(34) {
 
 
 .banner h1 {
-    font-size: 60px;
+    font-size: 80px;
     text-shadow: 2px 2px #000000;
     text-transform: uppercase;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .banner .container_secondary_text {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    font-weight: 900;
+    font-size: 25px;
+    color: aliceblue;
     text-shadow: 2px 2px #000000;
+    font-weight: 900;
 
 }
 
