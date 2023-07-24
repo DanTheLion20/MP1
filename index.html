@@ -25,7 +25,8 @@
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarContent">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarContent">
@@ -272,7 +273,8 @@
       </div>
     </div>
   </section>
-  <!--exciting part to be continued tomorrow -->
+
+  <!-- GALLERY -->
   <div class="background_padding">
     <section id="gallery_nav">
       <br>
@@ -280,7 +282,8 @@
         <h1 class="text-center">Gallery</h1>
         <div class="row gy-4">
           <div class="col-4">
-            <img src="img/gallery.jpeg" class="gallery w-100 img-fluid rounded-5">
+            <img src="img/gallery.jpeg" class="gallery w-100 img-fluid rounded-5" data-bs-toggle="modal"
+              data-bs-target="#modal1">
           </div>
           <div class="col-8">
             <img src="img/carousel_puerto.jpg" class="w-100 img-fluid rounded-5">
@@ -295,7 +298,32 @@
       </div>
     </section>
   </div>
-  <!-- img img img some text using grid system-->
+
+  <!-- Modals -->
+  <!-- fade for effects -->
+  <div class="modal fade" id="modal1">
+    <!-- modal-xl, modal-fullscreen, modal-lg, modal-sm for modal sizes-->
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <!-- modal header and title -->
+        <div class="modal-header">
+          <div class="modal-title">
+            <h2>El Nido</h2>
+          </div>
+        </div>
+        <div class="modal-body">
+          <img src="img/gallery.jpeg" class="w-100 img-fluid rounded-1">
+        </div>
+        <!-- modal footer-->
+        <div class="modal-footer">
+          <!-- data-bs-dissmiss="modal" to close -->
+          <button class="btn palawan_btn" data-bs-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- HOTELS -->
   <section id="hotel_nav">
     <br><br><br>
