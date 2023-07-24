@@ -14,7 +14,7 @@ document.addEventListener('scroll', () => {
 
 const runCounter = () => {
     const counters = document.querySelectorAll(".count");
-    const speed = 1000;
+    const speed = 250;
 
     counters.forEach((counter) => {
         const updateCount = () => {
