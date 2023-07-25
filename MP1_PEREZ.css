@@ -486,11 +486,11 @@ span:nth-child(34) {
 }
 
 
-/* Gallery */
+/* Gallery 
 
 .gallery {
     transform: translateY(7%);
-}
+} */
 
 .gallery_vertically_caption {
     transform: translateY(30%);
