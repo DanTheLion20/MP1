@@ -508,7 +508,7 @@ span:nth-child(34) {
 }
 
 .zoom_out:hover {
-    transform: scale(.8);
+    transform: scale(1.5);
 }
 
 
